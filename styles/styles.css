@@ -10,7 +10,7 @@ body {
 }
 
 .max-width {
-  max-width: 1300;
+  max-width: 1300px;
   padding: 0 10px;
   margin: auto;
 }
@@ -67,7 +67,7 @@ body {
     transition: all 0.3s ease;
   }
 
-  .navbar .menu .active {
+  .navbar .menu.active {
     left: 0;
   }
   .navbar .menu li {
@@ -81,4 +81,16 @@ body {
   .max-width {
     max-width: 930px;
   }
+}
+/* footer */
+.foot {
+  background-color: #141b29;
+  padding-top: 2em;
+  position: relative;
+}
+
+.foot .text {
+  color: #fff;
+  font-size: 23px;
+  text-align: center;
 }
