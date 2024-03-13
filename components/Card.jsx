@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profilePic from "../public/perfil.jpg";
+import profilePic from "../public/perfil.JPG";
 
 function Card() {
   return (
