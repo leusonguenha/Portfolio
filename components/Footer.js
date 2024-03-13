@@ -1,5 +1,5 @@
 import Link from "next/link";
-// let currentDate = new Date();{currentDate.toGMTString()}
+// let currentDate = new Date(); {currentDate.toGMTString()}
 
 const Footer = () => (
   <div className="foot">

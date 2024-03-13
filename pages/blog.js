@@ -12,7 +12,6 @@ function Home() {
       </Head>
       <Menu />
       <Footer />
-      Blog
     </div>
   );
 }

@@ -10,9 +10,8 @@ function Home() {
         <meta name="viewPort" content="inicial-scale=1.0, width=device-width" />
         <meta title="Leuso - Home" />
       </Head>
-      <Footer />
       <Menu />
-      Leuso Nguenha Site
+      <Footer />
       {/* <script src="/custom.js"></script> */}
       <script src="“https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/min.js”"></script>
       {/* <script

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import Card from "../components/Card";
 
 function Home() {
   return (
@@ -11,8 +12,8 @@ function Home() {
         <meta title="Leuso - About" />
       </Head>
       <Menu />
+      <Card />
       <Footer />
-      Sobre
     </div>
   );
 }
