@@ -1,26 +1,26 @@
 import Head from "next/head";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import Card from "../components/Card";
 
 function Home() {
   return (
-    <div>
+    <>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewPort" content="inicial-scale=1.0, width=device-width" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        ></link>
         <meta title="Leuso - Home" />
       </Head>
       <Menu />
+      <Card />
       <Footer />
-      {/* <script src="/custom.js"></script> */}
-      <script src="“https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/min.js”"></script>
-      {/* <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.js"
-        integrity="sha512-docBEeq28CCaXCXN7cINkyQs0pRszdQsVBFWUd+pLNlEk3LDlSDDtN7i1H+nTB8tshJPQHS0yu0GW9YGFd/CRg=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      ></script> */}
-    </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="custom.js"></script>
+    </>
   );
 }
 
