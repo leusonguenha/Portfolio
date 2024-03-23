@@ -15,7 +15,7 @@ body {
   margin: auto;
 }
 .navbar .logo a {
-  color: #1f80e0;
+  color: #fcbf49;
   font-size: 35px;
   font-weight: 500;
 }
@@ -24,8 +24,8 @@ body {
   width: 100%;
   z-index: 999;
   padding: 20px 0;
-  background-color: #141b29;
-  border-bottom: solid #1b202a 1px;
+  background-color: #003049;
+  border-bottom: solid #d62828 1px;
 }
 .navbar .max-width {
   display: flex;
@@ -55,8 +55,11 @@ body {
     display: block;
     z-index: 999;
   }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
   .navbar .menu {
-    background-color: #141b29;
+    background-color: #f77f00;
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -66,7 +69,6 @@ body {
     padding-top: 80px;
     transition: all 0.3s ease;
   }
-
   .navbar .menu.active {
     left: 0;
   }
@@ -84,10 +86,10 @@ body {
 }
 /* footer */
 .foot {
-  background-color: #141b29;
+  background-color: #003049;
   padding-top: 2em;
   padding: 20px 0;
-  position: relative;
+  position: static;
 }
 
 .foot .text {
