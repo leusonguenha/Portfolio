@@ -32,6 +32,9 @@
   font-weight: 400;
   margin-left: 25px;
 }
+.navbar .menu li a i {
+  padding-right: 5px;
+}
 .navbar .menu li a:hover {
   color: #fcbf49;
 }
