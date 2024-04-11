@@ -53,6 +53,7 @@
   .menu-btn i.active:before {
     content: "\f00d";
   }
+
   .navbar .menu {
     background-color: #f77f00;
     position: fixed;
@@ -74,6 +75,9 @@
     display: inline-block;
     margin: 13px 0;
     font-size: 25px;
+  }
+  .navbar .menu li a i {
+    display: none;
   }
   .navbar .menu li a:hover {
     color: #003049;
