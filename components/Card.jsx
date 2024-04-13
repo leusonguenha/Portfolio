@@ -14,11 +14,10 @@ function Card() {
         height={300}
       />
       <h2 className="card-title">Leuso Nguenha</h2>
-      <p className="card-text">Te amo Glécia</p>
-      {/* <p className="card-text">
+      <p className="card-text">
         Me apaixonei por programação e pelo menos aprendi alguma coisa, eu acho…
         &#x1F605;
-      </p> */}
+      </p>
     </div>
   );
 }
