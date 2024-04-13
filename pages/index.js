@@ -3,6 +3,7 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
 import FindMe from "../components/FindMe";
+import SobreMim from "../components/SobreMim";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       </Head>
       <Menu />
       <Card />
+      <SobreMim />
       <FindMe />
       <Footer />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
