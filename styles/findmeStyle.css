@@ -1,0 +1,36 @@
+.find-me .social-links {
+  margin: 10px 0;
+  display: inline-flex;
+  /* display: flex; */
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly;
+}
+.find-me .social-links li a i {
+  display: inline;
+  color: #f77f00;
+  list-style: none;
+  font-size: 30px;
+}
+
+.find-me .social-links li {
+  width: 0 auto;
+  padding: 0 10px;
+  padding-top: 5px;
+}
+.find-me .social-links i:hover {
+  color: #003049;
+}
+.contacte-me h2 {
+  padding-bottom: 10px;
+}
+.contacte {
+  /* background-color: #eea14e; */
+  padding: 5% 0;
+  margin: 5% 0;
+  /* font-size: 20px; */
+}
+.contacte-me h2 p,
+span {
+  color: #f77f00;
+}
