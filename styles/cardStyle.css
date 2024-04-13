@@ -5,7 +5,8 @@
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0% 0.1);
   padding: 20px;
-  margin: 10px;
+  margin: 12% 0 10px 0;
+  /* map */
   text-align: center;
   max-width: 250px;
   display: inline-block;
@@ -17,14 +18,24 @@
   border-radius: 50%;
   margin-bottom: 10px;
 }
+.card .card-image:hover {
+  transform: scale(1.1);
+}
 
 .card .card-title {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Roboto", "Montserrat", sans-serif;
+  font-style: normal;
   margin: 0;
-  color: hsl(0, 0%, 20%);
+  color: #f77f00;
 }
 
 .card .card-text {
-  font-family: Arial, Helvetica, sans-serif;
+  /*  <weight>: Use a value from 100 to 900 */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: hsl(0, 0%, 30%);
+  padding-top: 5px;
+  text-align: left;
 }

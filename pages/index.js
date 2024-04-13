@@ -2,6 +2,7 @@ import Head from "next/head";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
+import FindMe from "../components/FindMe";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       </Head>
       <Menu />
       <Card />
+      <FindMe />
       <Footer />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script src="custom.js"></script>

@@ -7,7 +7,15 @@
 }
 
 .foot .text {
+  /* font-family: Helvetica, sans-serif; */
   color: #fff;
-  font-size: 23px;
+  font-size: 18px;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .foot .text {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+  }
 }

@@ -2,6 +2,7 @@ import "../styles/styles.css";
 import "../styles/menuStyle.css";
 import "../styles/cardStyle.css";
 import "../styles/footerStyle.css";
+import "../styles/findmeStyle.css";
 
 // The CSS in ErrorBoundary depends on the global CSS in styles.css,
 // so we import it after styles.css.
