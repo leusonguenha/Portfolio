@@ -15,8 +15,8 @@ function Card() {
       />
       <h2 className="card-title">Leuso Nguenha</h2>
       <p className="card-text">
-        Me apaixonei por programação e pelo menos aprendi alguma coisa, eu acho…
-        &#x1F605;
+        Estudante Universitário que esta aprendendo a programar. Estou fazendo
+        este site justamente para melhorar os meus skills como desenvolvedor
       </p>
     </div>
   );
