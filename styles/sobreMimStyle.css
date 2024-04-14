@@ -2,10 +2,10 @@
   /* display: inline-flex; */
   /* margin: 20px 0; */
   margin: 5% 0 0 0;
-  background-color: #f1a7a7;
+  background-color: #fff;
   /* height: 600px; */
   height: auto;
-  width: 0 auto;
+  width: auto;
   padding: 13vh 10%;
 }
 .sobre {
