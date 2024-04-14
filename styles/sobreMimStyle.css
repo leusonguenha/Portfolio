@@ -2,8 +2,9 @@
   /* display: inline-flex; */
   /* margin: 20px 0; */
   margin: 5% 0 0 0;
-  background-color: #fff;
-  height: 600px;
+  background-color: #f1a7a7;
+  /* height: 600px; */
+  height: auto;
   width: 0 auto;
   padding: 13vh 10%;
 }
@@ -22,7 +23,7 @@
   text-align: justify;
 }
 .foto {
-  padding-top: 50px;
+  padding: 50px 0;
 }
 .foto .card-image {
   border-radius: 50%;
