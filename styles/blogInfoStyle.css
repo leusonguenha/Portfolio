@@ -1,0 +1,15 @@
+#info-blog {
+  display: inline-block;
+  margin: 0 20px 5% 0;
+  padding-right: 10px;
+  border-bottom: 2px solid #003049;
+  text-align: justify;
+  height: 300px;
+  width: 300px;
+}
+#info-blog .infoBlog h2 {
+  color: #f77f00;
+}
+#info-blog .infoBlog p {
+  color: #003049;
+}
