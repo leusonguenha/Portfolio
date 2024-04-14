@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import Habilidades from "../components/Habilidades";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <meta title="Leuso - About" />
       </Head>
       <Menu />
+      <Habilidades />
       <Footer />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script src="custom.js"></script>

@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Card from "../components/Card";
 import FindMe from "../components/FindMe";
 import SobreMim from "../components/SobreMim";
+import Descricao from "../components/Descricao";
 
 function Home() {
   return (
@@ -18,7 +19,8 @@ function Home() {
         <meta title="Leuso - Home" />
       </Head>
       <Menu />
-      <Card />
+      <Descricao />
+      {/* <Card /> */}
       <SobreMim />
       <FindMe />
       <Footer />
