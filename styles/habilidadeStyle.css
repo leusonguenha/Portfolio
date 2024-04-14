@@ -1,0 +1,47 @@
+/* #f77f00,#003049,#fcbf49,#d62828 */
+.main-habilidade {
+  height: auto;
+  background-color: #fcbf49;
+  margin: 5% 0;
+  padding: 8% 10%;
+}
+.habilidade-list {
+  margin: 10px 0;
+  /* padding: 15px; */
+  /* height: auto; */
+  /* width: 20vh; */
+}
+.habilidade-list ul {
+  list-style: none;
+  /* font-size: 15vh; */
+  font-size: 100px;
+}
+.habilidade-list ul li {
+  display: inline-block;
+  margin: 0 10px 10px 10px;
+  /* padding: 15px; */
+  /* font-size: 15vh; */
+  border: 2px solid #003049;
+  height: 120px;
+  width: 200px;
+}
+
+@media (max-width: 947px) {
+  .habilidade-list ul {
+    list-style: none;
+    font-size: 100px;
+  }
+
+  .habilidade-list ul li {
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+    padding: 0 15px 0 15px;
+    /* font-size: 15vh; */
+    border: 2px solid #003049;
+    height: 120px;
+    width: 130px;
+  }
+  .fa-node {
+    font-size: 80px;
+  }
+}
